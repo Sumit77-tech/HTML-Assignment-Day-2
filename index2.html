@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        h1 {
+            margin: 20px 0;
+            color: #333;
+        }
+        .gallery {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+            padding: 20px;
+        }
+        section {
+            background: #fff;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 10px;
+            max-width: 200px;
+            text-align: center;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+        a {
+            display: inline-block;
+            margin-top: 10px;
+            text-decoration: none;
+            color: #4CAF50;
+            font-weight: bold;
+        }
+        a:hover {
+            color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <h1>Image Gallery</h1>
+    <div class="gallery">
+        <section>
+            <img src="https://via.placeholder.com/150" alt="Placeholder Image 1">
+            <a href="https://example.com/resource1" target="_blank">Learn More</a>
+        </section>
+
+        <section>
+            <img src="https://via.placeholder.com/150" alt="Placeholder Image 2">
+            <a href="https://example.com/resource2" target="_blank">Learn More</a>
+        </section>
+
+        <section>
+            <img src="https://via.placeholder.com/150" alt="Placeholder Image 3">
+            <a href="https://example.com/resource3" target="_blank">Learn More</a>
+        </section>
+    </div>
+</body>
+</html>
